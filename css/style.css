@@ -1,0 +1,82 @@
+body {
+    background-color: #f2f3f5;
+}
+
+.header {
+    background-color: #0b0b31;
+    color: #a9a9a9;
+}
+
+.logo {
+    margin-bottom: 25px;
+}
+
+.nav-buttons button {
+    background-color: #0b0b31;
+    color: white;
+    border-radius: 10%;
+    border: none;
+    margin-right: 5px;
+}
+
+.hero-image {
+    padding-top: 25px;
+}
+
+.c-buttons div{
+    background-color: #a9a9a9;
+    display: inline-block;
+    width: 25%;
+    border-radius: 100%;
+    height: auto;
+    color: #a9a9a9;
+    text-align: center;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.about-us-container button {
+    background-color: #0b0b31;
+    color: white;
+    border-radius: 10%;
+    border: none;
+}
+
+.services-container {
+    background-image: radial-gradient(farthest-side at 334px -800px, #35557b 0%, #0f1821 100%);
+}
+
+.services-container h2 {
+    color: white;
+}
+
+.services-container li {
+    list-style-image: url(../media/gear.jpg);
+    color: gray;
+}
+
+.services-container button {
+    background-color: #0b0b31;
+    color: white;
+    border-radius: 10%;
+    border: none;
+}
+
+.order-list-column h3 {
+    color: white;
+}
+
+.order-list-column li {
+    list-style-image: url(https://mvalenciaiii.github.io/detroix/media/bubble.jpg);
+}
+
+.news-calendar-column-text p {
+    color: gray;
+}
+
+.news-calendar-column-text span {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    
+}
