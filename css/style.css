@@ -2,6 +2,19 @@ body {
     background-color: #f2f3f5;
 }
 
+.top-bar {
+    background-color: #0b0b31;
+    color: #a9a9a9;
+}
+
+.top-bar-items ul {
+    list-style: none;
+}
+
+.top-bar-items li {
+    display: inline;
+}
+
 .header {
     background-color: #0b0b31;
     color: #a9a9a9;
@@ -9,6 +22,12 @@ body {
 
 .logo {
     margin-bottom: 25px;
+}
+
+.nav-buttons {
+    align-content: center;
+    text-align: right;
+
 }
 
 .nav-buttons button {
@@ -79,4 +98,102 @@ body {
     font-weight: bold;
     color: white;
     
+}
+
+@media (min-width: 576px) {
+    .c-buttons div {
+        width: 20%;
+    }
+}
+
+@media (min-width: 768px) {
+    .c-buttons div {
+        width: 20%;
+        padding: 5%;
+    }
+}
+
+@media (min-width: 992px) {
+
+
+    .smartColumn {
+        border-top: solid 2px #a9a9a9;
+        border-right: solid 2px #a9a9a9;
+    }
+
+    .strongColumn {
+        border-top: solid 2px #a9a9a9;
+
+    }
+    .stableColumn {
+        border-top: solid 2px #a9a9a9;
+        border-left: solid 2px #a9a9a9;
+    }
+
+    .services-container {
+        max-height: 70%;
+    }
+
+    .services-container h2 {
+        margin-top: 5%;
+        margin-bottom: 10%;
+
+    }
+
+    .services-container h3 {
+        margin-top: 5%;
+        margin-bottom: 10%;
+
+    }
+
+    .services-container p {
+        margin-top: 5%;
+        margin-bottom: 10%;
+
+    }
+
+    .services-container li {
+        margin-bottom: 10%;
+        margin-top: 15%;
+
+    }
+    
+    .service-column {
+        position: relative;
+    }
+
+    .service-column button {
+        position: absolute;
+        bottom: 10px;
+    }
+
+    .opportunities-column {
+        position: relative;
+    }
+
+    .opportunities-column button {
+        position: absolute;
+        bottom: 10px;
+    }
+
+    .news-column {
+        position: relative;
+  
+    }
+
+    .news-column button {
+        position: absolute;
+        bottom: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    .nav-buttons {
+        display: flex;
+        justify-content: center;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
 }
